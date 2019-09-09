@@ -7,8 +7,9 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 61%;
     margin: 0 auto;
+
 }
 
 .site-logo{
@@ -20,16 +21,17 @@ body{
 }
 .page-nav{
     display: flex;
-    min-height: 100px;
+    min-height: 120px;
     align-items: center;
     justify-content: space-between;
 }
 .site-navigation {
-
     display: flex;
     width: 500px;
     list-style: none;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 
 }
 
@@ -38,251 +40,187 @@ body{
     line-height: 1;
     display: inline-block;
     text-decoration: none;
-    color: black;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;;
+    color: #222222;
     text-transform: uppercase;
     cursor: pointer;
 }
-
-.site-navigation a:after {
-    margin-top: 10px;
-    display: block;
-    content: "";
-    height: 2px;
-    width: 0%;
-    background-color: #fed136;
-    transition: width .3s ease-in-out;
+.site-navigation :hover{
+color: #fed136;
 }
-
-.site-navigation a:hover:after,
-.site-navigation a:focus:after {
-    width: 100%;
-}
-
-.site-navigation a:hover{
-    color: #fed136;
-}
-
-.section-1{
-    margin-top: 80px;
-    height: 100px;
-}
-.headline{
-    position: relative;
+.title{
     display: flex;
-    flex-direction: column;
+    min-height: 215px;
+    width: 61%;
+    margin: 0 auto;
+
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+.services-cards{
 
-h2{
-        font-size: 40px;
-        font-family: 'Montserrat', sans-serif;;
-        color: rgb(34, 34, 34);
-        font-weight: bold;
-        text-transform: uppercase;
-      
+    min-height: 310px;
+    width: 61%;
+    margin: 0 auto;
+
+    text-align: center;
 }
-
-h5{
-        font-size: 16px;
-        font-family: "font-family: 'Fira Sans', sans-serif;";
-        color: rgb(119, 119, 119);
-        font-style: italic;
-
-}
-
-
-.h2-text{
-    padding-bottom: 10px;
-}
-
-.list-item{
-    margin-top: 60px;
+.cards{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.img-icon{
-    padding-bottom: 30px;
-    height: 80px;
-    width: 80px;
-    background: url(../img/alarm.png) no-repeat;
-    background-size: contain;
-}
-
-.h3-list-item{
-        font-size: 18px;
-        font-family: 'Montserrat', sans-serif;;
-        color: rgb(34, 34, 34);
-        font-weight: bold;
-        padding-bottom: 20px;
+.service-name{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 
 }
-
-.p-list-item{
-    text-align: center;
-        font-size: 14px;
-        font-family: "font-family: 'Roboto Slab', serif;";
-        color: rgb(119, 119, 119);
+.description {
+    font-size: 14px;
+    width: 275px;
+    padding-top: 20px;
+    font-family: 'Roboto Slab';
 
 }
-
-.list-card{
-    width: 290px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section-3{
-    margin-top: 100px;
-    padding-top: 100px;  
-    background-image: url("../img/map.png");
-    background-repeat: no-repeat;
-    background-position: 100% 90%
-}
-
-.section-3{
-    width: 100%;
+.contact{
     height: 700px;
-    background-color: rgb(34, 34, 34);
-    color: white;
-    
+    background: url(../img/Map-Image.png) no-repeat center center fixed;
+    background-size: cover;
 }
-
-.contact-us{
-    
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.contact-us-item{
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+.title-services{
+    color: #000000;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
-
-
-.contact-us-item-sub{
-    font-size: 20px;
-    font-family: "font-family: 'Fira Sans', sans-serif;";
-    color: rgb(119, 119, 119);
+.sub-title{
+    color: #777777; 
     font-style: italic;
-    margin-bottom: 30px;
 }
-
-
-.form{
-    display: flex;
-    height: 240px;
-    width: 940px;
-    justify-content: center;
-}   
-.wrapper{
-    display: flex;
-    height: 240px;
-    width: 940px;
-    flex-flow: column wrap
-}
-
-.wrapper-item{
-    height: 53px;
-    width: 420px;
-    margin-top: 27px;
-    background: #fed136;
-}
-.left{
-    height: 210px;
-    width: 420px;
-}
-.margin-bottom{
-    margin-bottom: 70px;
-}
-
-input{
-    text-decoration: none;
-    border: none;
-  font: inherit;
-  color: inherit;
-}
-
-.input-text{
-    padding-left: 20px;
-    color: black;
-    height: 53px;
-    width: 420px;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;;
-    font-weight: bold;
+.title-services2{
+    color: #ffffff;
     text-transform: uppercase;
-}
-
-.input-text-comment{
-    padding: 7px;
-    color: black;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;;
-
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
+}
+.sub-title2{
+    color: #777777;
+    font-style: italic;
 }
 
-placeholder{
-    color: rgb(187, 187, 187);
-}
-
-button.submit {
-	background-color: #fed136;
-	border: 1px solid #fed136;
-	border-bottom: 1px solid #fed136;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
-	box-shadow: inset 0 1px 0 0 #fed136;
-	-webkit-box-shadow: 0 1px 0 0 #fed136 inset ;
-	-moz-box-shadow: 0 1px 0 0 #fed136 inset;
-	-ms-box-shadow: 0 1px 0 0 #fed136 inset;
-	-o-box-shadow: 0 1px 0 0 #fed136 inset;
-	color: white;
-	font-weight: bold;
-	padding: 6px 20px;
-	text-align: center;
-	text-shadow: 0 -1px 0 #fed136;
-}
-button.submit:hover {
-	opacity:.85;
-	cursor: pointer; 
-}
-button.submit:active {
-	border: 1px solid #20911e;
-	box-shadow: 0 0 10px 5px #356b0b inset; 
-	-webkit-box-shadow:0 0 10px 5px #356b0b inset ;
-	-moz-box-shadow: 0 0 10px 5px #356b0b inset;
-	-ms-box-shadow: 0 0 10px 5px #356b0b inset;
-	-o-box-shadow: 0 0 10px 5px #356b0b inset;
-	
-}
-
-.submit{
-    margin-top: 40px;
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;;
-    color: rgb(255, 255, 255);
+form, input {
+    font-size: 20px;
+  }
+  
+  input { 
+    height: 50px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
+
+    box-sizing: border-box;
+    margin: 14px 0;
+    width: 455px;
+    display: block;
+    outline: 4px solid transparent;
+    outline-offset: -2px;
+    transition: outline-color 0.1s;
+    border-radius: 8px;
+    border: 0;
+  }
+  textarea {
+      height:205px ;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+
+      box-sizing: border-box;
+      margin: 14px 0;
+      width: 455px;
+      display: block;
+      outline: 4px solid transparent;
+      outline-offset: -2px;
+      transition: outline-color 0.1s;
+      border-radius: 8px;
+      border: 0;
+  }
+  
+  input[type="submit"] {
+    height: 68px;
     width: 240px;
-    height: 66px;
+    background-color: #fed136;
+    color: #ffffff;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    
+    box-sizing: border-box;
+    margin: 14px 0;
+    display: block;
+    outline: 4px solid transparent;
+    outline-offset: -2px;
+    transition: outline-color 0.1s;
+    padding-left: 0 px;
+  }
+  
+  
+  .registration {
     display: flex;
     justify-content: center;
-    align-content: center;
-    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  
+  .wrapper {
+    width: 1000px;
+    height: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+  }
+  .reg-raws{
+      display: flex;
+      flex-flow: column wrap;
+      height: 245px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+
+  }
+  .button{
+      display: flex;
+      justify-content: center;
+  }
+    
+input[type="email"]:focus:invalid,
+textarea[name="body"]:focus:invalid,
+input[type="text"]:focus:invalid{
+outline-color: red;
+transition: outline-color 5s;
 }
 
+input[type="email"]:focus:valid,
+textarea[name="body"]:focus:valid,
+input[type="text"]:focus:valid{
+outline-color: green;
+transition: outline-color .4s;
+}
+
+input[name="name"] {
+    padding-left: 1rem;
+}
+input[name="mail"] {
+    padding-left: 1rem;
+}
+input[name="subject"] {
+padding-left: 1rem;
+}      
+textarea{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}    
+input::placeholder{
+    font-size: 14px;
+    }
+textarea::placeholder{
+    font-size: 14px;
+    }
