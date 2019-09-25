@@ -9,14 +9,14 @@ body{
 .container{
     width: 61%;
     margin: 0 auto;
-
+    /*background: grey;*/
 }
 
 .site-logo{
     height: 30px;
     width: 90px;
     display: inline-block;
-    background: url(../img/logo.png) no-repeat;
+    background: url(../img7/logo.png) no-repeat;
     background-size: contain;
 }
 .page-nav{
@@ -52,17 +52,18 @@ color: #fed136;
     min-height: 215px;
     width: 61%;
     margin: 0 auto;
-
+    /*background: brown;*/
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 .services-cards{
-
+    /*display: flex;*/
     min-height: 310px;
     width: 61%;
     margin: 0 auto;
-
+    /*background: greenyellow;*/
+    /*justify-content: space-between;*/
     text-align: center;
 }
 .cards{
@@ -81,10 +82,15 @@ color: #fed136;
     padding-top: 20px;
     font-family: 'Roboto Slab';
 
+
+    /*display: flex;
+    width: 275 px;
+    height: 190 px;
+    background: blueviolet;*/
 }
 .contact{
     height: 700px;
-    background: url(../img/Map-Image.png) no-repeat center center fixed;
+    background: url(../img7/Map-Image.png) no-repeat center center fixed;
     background-size: cover;
 }
 .title-services{
@@ -111,6 +117,12 @@ color: #fed136;
 form, input {
     font-size: 20px;
   }
+  /*.column-reg{
+      height: 215px;
+      width: 945px;
+      display: flex;
+      flex-wrap: column wrap;
+  }*/
   
   input { 
     height: 50px;
